@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "contributors"("issueid" integer NOT NULL, "userid" integer
+      NOT NULL, "cno" serial NOT NULL, PRIMARY KEY ("cno") )
+  type: run_sql
+- args:
+    name: contributors
+  type: add_existing_table_or_view

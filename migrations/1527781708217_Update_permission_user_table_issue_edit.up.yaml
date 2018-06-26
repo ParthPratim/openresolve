@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - issueid
+      - editor
+      - timestamp
+      - hasura_id
+      filter: {}
+    role: user
+    table: issue_edit
+  type: create_update_permission

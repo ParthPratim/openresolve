@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - issueid
+      - userid
+      - cno
+      filter: {}
+    role: anonymous
+    table: contributors
+  type: create_select_permission

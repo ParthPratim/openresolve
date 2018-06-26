@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "im_chats" ALTER COLUMN "userid" TYPE text;
+  type: run_sql

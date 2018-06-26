@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "request_abort" ADD COLUMN "seen" boolean NOT NULL DEFAULT false
+  type: run_sql

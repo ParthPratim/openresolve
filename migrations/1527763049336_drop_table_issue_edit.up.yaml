@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "issue_edit"
+  type: run_sql

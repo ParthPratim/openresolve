@@ -1,0 +1,16 @@
+- args:
+    role: user
+    table: issues
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - title
+      - problem
+      - src_link
+      - id
+      - language
+      filter: {}
+    role: user
+    table: issues
+  type: create_update_permission

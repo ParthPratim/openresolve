@@ -1,0 +1,13 @@
+- args:
+    role: user
+    table: updated_source
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - issue_id
+      - source_code
+      filter: {}
+    role: user
+    table: updated_source
+  type: create_update_permission

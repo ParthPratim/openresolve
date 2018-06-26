@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - title
+      - problem
+      - src_link
+      - id
+      filter: {}
+    role: anonymous
+    table: issues
+  type: create_select_permission

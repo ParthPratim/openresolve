@@ -1,0 +1,6 @@
+- args:
+    permission:
+      filter: {}
+    role: user
+    table: issues
+  type: create_delete_permission

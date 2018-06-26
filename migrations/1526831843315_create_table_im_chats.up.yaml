@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "im_chats"("userid" integer NOT NULL, "chatmsg" text NOT NULL,
+      "timestamp" timestamptz NOT NULL, "issueid" integer NOT NULL, "chatid" serial
+      NOT NULL, PRIMARY KEY ("chatid") )
+  type: run_sql
+- args:
+    name: im_chats
+  type: add_existing_table_or_view

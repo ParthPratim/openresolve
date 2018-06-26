@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "updated_source"("issue_id" integer NOT NULL, "source_code"
+      text NOT NULL, PRIMARY KEY ("issue_id") )
+  type: run_sql
+- args:
+    name: updated_source
+  type: add_existing_table_or_view

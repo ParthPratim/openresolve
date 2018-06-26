@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - answer
+      - issue_id
+      - hasura_id
+      - ran
+      - username
+      filter: {}
+    role: user
+    table: request_abort
+  type: create_update_permission

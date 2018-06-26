@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "issue_edit"("issueid" integer NOT NULL, "hasura_id" integer
+      NOT NULL, "timestamp" timestamptz , "editor" text NOT NULL, PRIMARY KEY ("issueid")
+      )
+  type: run_sql
+- args:
+    name: issue_edit
+  type: add_existing_table_or_view

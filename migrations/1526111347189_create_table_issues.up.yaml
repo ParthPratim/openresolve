@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "issues"("id" serial NOT NULL, "title" text NOT NULL, "problem"
+      text NOT NULL, "src_link" text NOT NULL, PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: issues
+  type: add_existing_table_or_view

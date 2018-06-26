@@ -1,0 +1,14 @@
+- args:
+    role: user
+    table: updated_source
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - issue_id
+      - source_code
+      - line_num
+      filter: {}
+    role: user
+    table: updated_source
+  type: create_select_permission

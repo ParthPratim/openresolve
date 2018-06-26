@@ -1,0 +1,17 @@
+- args:
+    role: user
+    table: request_abort
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - issue_id
+      - hasura_id
+      - username
+      - answer
+      - ran
+      - seen
+      filter: {}
+    role: user
+    table: request_abort
+  type: create_select_permission

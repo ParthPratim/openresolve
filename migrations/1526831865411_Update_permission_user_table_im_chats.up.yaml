@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - chatmsg
+      - timestamp
+      - issueid
+      - userid
+      - chatid
+      filter: {}
+    role: user
+    table: im_chats
+  type: create_select_permission

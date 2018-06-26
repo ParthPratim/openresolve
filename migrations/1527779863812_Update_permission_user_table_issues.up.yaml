@@ -1,0 +1,18 @@
+- args:
+    role: user
+    table: issues
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - id
+      - title
+      - problem
+      - src_link
+      - language
+      - creater
+      - resolved
+      filter: {}
+    role: user
+    table: issues
+  type: create_select_permission

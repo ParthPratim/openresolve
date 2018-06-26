@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "request_abort"("issue_id" integer NOT NULL, "hasura_id" integer
+      NOT NULL, "username" text NOT NULL, "answer" integer NOT NULL, "ran" serial
+      NOT NULL, PRIMARY KEY ("ran") )
+  type: run_sql
+- args:
+    name: request_abort
+  type: add_existing_table_or_view

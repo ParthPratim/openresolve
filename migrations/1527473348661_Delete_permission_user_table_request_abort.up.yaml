@@ -1,0 +1,4 @@
+- args:
+    role: user
+    table: request_abort
+  type: drop_update_permission

@@ -1,0 +1,17 @@
+- args:
+    role: user
+    table: issue_edit
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - hasura_id
+      - timestamp
+      - issueid
+      - editor
+      filter:
+        hasura_id:
+          $eq: X-HASURA-USER-ID
+    role: user
+    table: issue_edit
+  type: create_update_permission

@@ -1,0 +1,14 @@
+- args:
+    role: user
+    table: contributors
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - issueid
+      - userid
+      - cno
+      filter: {}
+    role: user
+    table: contributors
+  type: create_select_permission

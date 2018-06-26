@@ -1,0 +1,6 @@
+- args:
+    sql: ALTER TABLE "issue_edit" ALTER COLUMN "timestamp" TYPE timestamptz;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "issue_edit" ALTER COLUMN "timestamp" DROP NOT NULL;
+  type: run_sql

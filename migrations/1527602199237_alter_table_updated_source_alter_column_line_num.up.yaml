@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE ONLY "updated_source" ALTER COLUMN "line_num" SET DEFAULT 0;
+  type: run_sql
